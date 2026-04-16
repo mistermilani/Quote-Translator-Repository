@@ -1,2 +1,1 @@
-# Quote Translator Repository
-
+# Make sure to download the image for it to load in the Flet window.
