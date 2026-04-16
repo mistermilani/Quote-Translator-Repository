@@ -11,7 +11,7 @@ def main(page: ft.Page):
 
     #Controls
     quote = ft.Text(value = "“夢を見るのは悪いことじゃない、だが現実も見ろ。”\n— All Might", size = 25, weight = ft.FontWeight.BOLD)
-    allimage = ft.Image(src = "images/AllMight", height = 500, width = 500)
+    allimage = ft.Image(src = "AllMight.png", height = 500, width = 500)
     row = ft.Row(controls=[allimage, quote], spacing=80, alignment=ft.MainAxisAlignment.START)
     radio = ft.RadioGroup(
         content = ft.Column(
@@ -23,4 +23,4 @@ def main(page: ft.Page):
                 ft.Radio(value = "“Ce n’est pas mal de rêver, mais tu dois aussi considérer ce qui est réaliste.”\n— All Might", label = "French")]), on_change = change)
     
     page.add(row, radio)
-ft.run(main, assets_dir = "assets")
+ft.run(main, assets_dir = "images123")
